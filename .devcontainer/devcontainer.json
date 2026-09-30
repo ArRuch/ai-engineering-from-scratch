@@ -1,0 +1,14 @@
+ {
+     "name": "AI Engineering from Scratch",
+     "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+     "features": {
+       "ghcr.io/devcontainers/features/node:1": {},
+       "ghcr.io/astral-sh/devcontainer-features/uv:latest": {}
+     },
+     "postCreateCommand": "pip install -r requirements.txt",
+     "customizations": {
+       "vscode": {
+         "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+       }
+     }
+   }
